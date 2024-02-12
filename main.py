@@ -351,7 +351,7 @@ def game_loop():
             if ball.x < 0:
                 # add a point to the player who scored
                 score2 += 1
-                # return the ball to the center and reset it's velocity to zero
+                # return the ball to the center and reset its velocity to zero
                 ball.x = screenwidth / 2
                 ball.y = screenheight / 2
                 ball.vx = 0
